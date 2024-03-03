@@ -11,9 +11,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O BalleCoffee é um site para Devs procurarem receitas de café.
+O BalleCoffee é um site para Devs procurarem receitas de café (este site ainda está em desenvolvimento).
 
-- [Acesse o projeto finalizado, online]()
+- [Acesse o projeto finalizado, online](https://guipardindev.github.io/BalleCoffee/)
 
 ## 🔖 Layout
 
