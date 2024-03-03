@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&family=Inter:wght@100..900&family=Montserrat:wght@100..900&family=Teko:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f1517;
+  color: #ffffff;
+}
+
+html {
+  font-family: Inter, sans-serif;
+  font-family: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  max-width: 1120px;
+  margin: auto;
+  padding: 24px 160px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Teko, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.menu-a {
+  color: #fff2e780;
+}
+
+.menu-a:hover {
+  color: #fff2e7;
+  font-weight: 600;
+  
+}
+
+.github {
+  color: #fff2e7;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.back-hero {
+  background: #181012;
+}
+
+.hero {
+  max-width: 1120px;
+  height: 60vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 96px;
+
+  padding: 0 32px;
+  margin: auto;
+
+  overflow: clip;
+}
+
+.hero-header {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.emphasis {
+  font-family: Epilogue, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.brown {
+  color: #a45a49;
+}
+
+
+.yellow {
+  color: #e7ab0e;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 56px;
+  font-weight: 800;
+}
+
+hr {
+  border-color: #a45a49;
+}
+
+.hero-h2 {
+  color: #c7bab3;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hero-images {
+  max-width: 45%;
+  column-count: 4;
+  column-gap: 16px;
+  margin: -16px;
+}
+
+.hero-images > figure > img {
+  width: 100%;
+}
+
+.button-container {
+  width: 100%;
+  max-width: 1120px;
+  margin: auto;
+  transform: translate(0, -50%);
+}
+
+button {
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+  background: #a45a49;
+}
+
+.revenues {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1120px;
+  padding: 48px 32px;
+  margin: auto;
+}
+
+.revenues-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.revenues-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff2e7;
+}
+
+.revenues-subtitle {
+  color: #c7bab3;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.revenues-card-container {
+  padding: 0 160px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.revenues-card {
+  background: #241a1c;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex-basis: 464px;
+  margin-top: 32px;
+}
+
+.revenues-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.revenues-card-header-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.revenues-card-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff2e7;
+}
+
+.revenues-card-avaliation {
+  color: #754a67;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.revenues-card-description {
+  color: #c7bab3;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.revenues-card-autor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.revenues-card-autor > img {
+  border-radius: 320px;
+  width: 24px;
+}
+
+.revenues-card-autor-name {
+  color: #c7bab3;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: #23181a;
+}
+
+.footer-copy {
+  color: #fff2e7;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-autor {
+  color: rgba(255, 242, 231, 0.50);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
