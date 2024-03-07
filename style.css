@@ -41,6 +41,7 @@ nav {
   font-size: 32px;
   font-weight: 600;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .menu {
@@ -51,17 +52,23 @@ nav {
 
 .menu-a {
   color: #fff2e780;
+  transition: transform 0.5s;
 }
 
 .menu-a:hover {
   color: #fff2e7;
   font-weight: 600;
-  
+  transform: scale(1.05);
 }
 
 .github {
   color: #fff2e7;
   font-weight: 600;
+  transition: transform 0.5s;
+}
+
+.github:hover  {
+  transform: scale(1.05);
 }
 
 main {
@@ -151,6 +158,12 @@ button {
   padding: 16px;
   border-radius: 8px;
   background: #a45a49;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
 }
 
 .revenues {
@@ -186,7 +199,6 @@ button {
   padding: 0 160px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   gap: 32px;
 }
 
@@ -199,6 +211,12 @@ button {
   gap: 32px;
   flex-basis: 464px;
   margin-top: 32px;
+  transition: trasnform 0.5s;
+}
+
+.revenues-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .revenues-card-header {
