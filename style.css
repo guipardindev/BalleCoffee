@@ -158,7 +158,6 @@ button {
   padding: 16px;
   border-radius: 8px;
   background: #a45a49;
-  
   transition: transform 0.5s;
   cursor: pointer;
 }
