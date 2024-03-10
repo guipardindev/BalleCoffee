@@ -133,6 +133,7 @@ h1 {
 
 hr {
   border-color: #a45a49;
+  margin: 100px;
 }
 
 .hero-h2 {
@@ -186,6 +187,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-bottom: 20px;
 }
 
 .revenues-title {
