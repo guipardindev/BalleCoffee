@@ -131,6 +131,11 @@ h1 {
   align-items: center;
 }
 
+.hr-hero {
+  border-color: #a45a49;
+  margin: 0;
+}
+
 hr {
   border-color: #a45a49;
   margin: 100px;
