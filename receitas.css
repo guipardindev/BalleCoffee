@@ -152,7 +152,7 @@ hr {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
   flex-basis: 464px;
   margin-top: 32px;
   transition: trasnform 0.5s;
@@ -186,6 +186,69 @@ flex-direction: row;
 align-items: center;
 gap: 8px;
 margin-bottom: 20px;
+}
+
+.revenues-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  max-width: 1120px;
+  padding: 48px 32px;
+  margin: auto;
+  gap: 30px;
+}
+
+.revenues-subtitle {
+  color: #c7bab3;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.steps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.step-text {
+  color: #C7BAB3;
+}
+
+button {
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+  background: #a45a49;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.igredients {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.igredient-check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .revenues-card-autor {
