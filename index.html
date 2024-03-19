@@ -8,12 +8,16 @@
   <title>BalleCoffee</title>
 
   <meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!">
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
-     <nav>
+     <nav data-aos="fade-down" data-aos-delay="500">
       <span class="logo">
         <a href="index.html">ballecoffee</a>
       </span>
@@ -62,7 +66,11 @@
   <main>
     <div class="back-hero">
       <section class="hero">
-        <header class="hero-header">
+        <header 
+          class="hero-header" 
+          data-aos="fade-right"
+          data-aos-delay="500"  
+        >
           <span class="emphasis brown">novidade</span>
           <h1>Encontre a receita perfeita!</h1>
           <hr class="hr-hero">
@@ -70,7 +78,10 @@
             Explore dezenas de variações da bebida favorita entre os <strong>devs</strong> ao redor mundo!
           </h2>
         </header>
-        <div class="hero-images">
+        <div class="hero-images" 
+             data-aos="fade-left"
+             data-aos-delay="500" 
+        >
           <figure><img src="images/image 1.png"></figure>
           <figure><img src="images/image 2.png"></figure>
           <figure><img src="images/image 3.png"></figure>
@@ -87,14 +98,21 @@
       </section>
     </div>
     <section class="button-container"> 
-      <button type="button">
+      <button 
+        type="button"
+        data-aos="zoom-in" 
+        data-aos-delay="500">
         <a href="#revenues">
           <img src="images/chevrons-down.svg">
         </a>
       </button>
     </section>
     <section class="revenues" id="revenues">
-      <header class="revenues-header" id="revenues new">
+      <header 
+        class="revenues-header" 
+        id="revenues new" 
+        data-aos="fade-right"
+        data-aos-delay="500"  >
         <span class="emphasis brown">novidades</span>
         <h2 class="revenues-title">Confira as últimas receitas</h2>
         <p class="revenues-subtitle">Dê uma olhada nas receitas novas aqui!</p>
@@ -158,7 +176,12 @@
 
       <hr>
 
-      <header class="revenues-header" id="revenues mlhr-av">
+      <header 
+        class="revenues-header" 
+        id="revenues mlhr-av"
+        data-aos="fade-right"
+        data-aos-delay="500"  
+      >
         <span class="emphasis brown">melhor avaliadas</span>
         <h2 class="revenues-title">
           Confira as melhores avaliadas receitas
@@ -227,7 +250,12 @@
 
       <hr>
 
-      <header class="revenues-header" id="revenues all">
+      <header 
+        class="revenues-header" 
+        id="revenues all" 
+        data-aos="fade-right"
+        data-aos-delay="500"
+      >
         <span class="emphasis brown">receitas</span>
         <h2 class="revenues-title">
           Confira todas as receitas
@@ -353,7 +381,10 @@
 
     </section>
   </main>
-  <footer>
+  <footer 
+    data-aos="fade-up"
+    data-aos-delay="500"
+  >
     <p class="footer-copy">
       Copyright 	&lt;CODEFEE /&gt; 2023
     </p>
@@ -361,5 +392,6 @@
       Feito por Guilherme Pardin
     </p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
